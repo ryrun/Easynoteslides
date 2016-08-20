@@ -17,7 +17,7 @@ function toimp_pitchnote(dir)
           fx.number_value = 13
           fx.amount_value = 0x10
           note.note_value = note.note_value + 1
-        elseif fx.number_value == 13 and fx.amount_value<0xff then
+        elseif fx.number_value == 13 and fx.amount_value<0xf0 then
           fx.amount_value = fx.amount_value + 0x10
           note.note_value = note.note_value + 1
         elseif fx.number_value == 30 and fx.amount_value<0x11 then
@@ -36,7 +36,7 @@ function toimp_pitchnote(dir)
           fx.number_value = 30
           fx.amount_value = 0x10
           note.note_value = note.note_value - 1
-        elseif fx.number_value == 30 and fx.amount_value<0xff then
+        elseif fx.number_value == 30 and fx.amount_value<0xf0 then
           fx.amount_value = fx.amount_value + 0x10
           note.note_value = note.note_value - 1
         elseif fx.number_value == 13 and fx.amount_value<0x11 then
