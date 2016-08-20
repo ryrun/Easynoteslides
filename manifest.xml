@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <ApiVersion>5</ApiVersion>
+  <Id>toimp.ryrun.Easynoteslides</Id>
+  <Version>0.1</Version>
+  <Author>toimp</Author>
+  <Name>Easynoteslides</Name>
+  <Category>Tools</Category>
+  <Description>A simple tool for easy note slides.</Description>
+  <Homepage></Homepage>
+</RenoiseScriptingTool>
