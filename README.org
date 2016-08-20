@@ -1,0 +1,5 @@
+#+TITLE:Simple tool for note slides in renoise
+
+It provides two new keyboard shortcuts, which you can use to pitch notes like in the following animation. Its for creating simple note slides, with just one keytroke. Works perfectly for songs with a LPB 4 and below.
+
+[[file:preview.gif]]
